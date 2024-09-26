@@ -1,0 +1,258 @@
+ 
+    .home1 {
+      width: 100%;
+      height: 70%;
+    }
+
+    .logo {
+      width: 124px;
+      height: 90px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 5%;
+      
+    }
+
+    .nav_links {
+      float: left;
+    }
+	
+
+    .button-container {
+      display: flex;
+      gap: 10px;
+    }
+
+ .button-container .cart_button {
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+.button-container .logout_button {
+  padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+
+.logout_button:hover {
+  background-color: #ff1a1a; 
+}
+
+
+   .button_paragraph{
+			font-size:15px;
+			padding-left:5px;
+			color:red;
+			border-radius:50%;
+			background-color:white;
+			padding-right:4px;
+		}
+    .nav_links{
+		list-style:none;
+		}
+    .nav_links li {
+			display:inline-block;
+			padding: 0px 10px;	
+		}
+     .nav_links a{
+		   text-decoration: none; 
+		}
+    	.banner_child{
+		margin-left:30%;
+		margin-right:30%;
+		width:40%;
+		background-color:black;
+		height:30px;
+		}
+	.banner_parent{
+			background-color:black;
+			height:30px;
+			}
+	.sale{
+		color:white;
+		font-size:20px;
+		padding-top:3px;
+		}
+
+	.middle_div{    
+			padding:30px 0 50px;
+			
+			}
+
+	h2{	
+		 font-weight: 300;
+		 letter-spacing: .21em;
+	}
+     
+       p{      
+		font-size: 1rem;
+		margin:0;
+		}
+	 .product_div{
+			position: relative;
+			flex: 0 0 calc(30% - 20px);
+			}
+	.product_image{
+			  max-width: 100%;
+				height: auto;
+			}
+	.product_div {
+    position: relative;
+}
+
+.hover-image {
+	max-width: 100%;
+	height: auto;
+    display: none; /* Hide the second image by default */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure the second image displays on top */
+}
+
+.product_div:hover .hover-image {
+    display: block; /* Display the second image on hover */
+}
+
+/* Rest of your CSS styles... */
+
+	
+	.product_row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left:30px;
+      margin-right:30px;
+      margin-bottom:10px;
+     
+      	
+    }
+.product_div {
+    text-align: center;
+    cursor:pointer;
+	 
+}
+
+.product_info {
+    text-align: center;
+}
+.product_price {
+    font-weight: 700; 
+    font-size:20px;
+}
+
+#addtocart {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor on hover */
+    margin-top:10px;
+}
+
+#addtocart:hover {
+    background-color: #45a049;
+}
+		
+      .fre-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px; 
+    }
+
+    .fre-item {
+      text-align: center;
+      margin: 10px; 
+      padding-top:60px;
+      padding-left: 80px;
+      padding-bottom:60px;
+    }
+
+
+ 	.bottom{
+		background-color:silver;
+		  display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 3%;
+      
+}
+
+.bt_child{
+		list-style:none;
+	
+	}
+.pp{
+	float:left;
+	
+}
+.pp1{
+	float:right;
+	}
+	
+hr{ margin:2px;;
+	border-style: inset;
+  border-width: 1px;}
+.mfas{
+	font-size:20px;
+	padding:5px 0 5px 20px;
+	}
+.pp,.pp1{
+    padding:5px 0 5px 20px;
+	}
+h3{
+	margin:2px;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+.social{
+	 padding-top:4px;	
+	 letter-spacing:20px;
+	 color:inherit;
+	 font-size:25px;
+}
+.find_us{
+		padding-top:10px;
+	}
+
+.home_email{
+      padding: 7px 30px;
+      border: none;
+      border-radius: 5px;
+	
+}
+.home_submit{
+		padding: 7px 10px;
+      border: none;
+      border-radius: 5px;
+		}
+button:hover{
+		transform: scale(1.1);
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cart</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="home.html" class="logo"><img class="logo" src="Urban.png"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a class="ab" href="home.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="button-container">
+            <button onclick="favourite()">Favourite</button>
+            <button onclick="cart()">Cart &nbsp<b class="button_paragraph" id="cart">0</b></button>
+        </div>
+    </header>
+
+    <div class="cart-items">
+        <!-- This is where the cart items will be displayed -->
+    </div>
+
+    <script>
+        // Sample code to retrieve and display cart items
+        // Replace this with your actual code to fetch and display cart items
+        const cartItems = [
+            {
+                name: "ECRU MERINO WOOL RONALDO POLO SHIRT",
+                price: "₹1299.00",
+            },
+            {
+                name: "GREY MERINO WOOL CECIL POLO SHIRT",
+                price: "₹1299.00",
+            },
+            // Add more cart items as needed
+        ];
+
+        const cartItemsContainer = document.querySelector(".cart-items");
+
+        // Loop through cart items and display them
+        cartItems.forEach((item) => {
+            const cartItemElement = document.createElement("div");
+            cartItemElement.classList.add("cart-item");
+            cartItemElement.innerHTML = `
+                <img src="images/default-product-image.jpg" alt="Product Image">
+                <div class="cart-item-details">
+                    <h3>${item.name}</h3>
+                    <p>Price: ${item.price}</p>
+                </div>
+            `;
+            cartItemsContainer.appendChild(cartItemElement);
+        });
+    </script>
+</body>
+
+</html>
